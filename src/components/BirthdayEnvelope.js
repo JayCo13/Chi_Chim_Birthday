@@ -7,7 +7,7 @@ import capybaraAnimation from '../animations/capybara.json';
 import catAnimation from '../animations/cat.json';
 import mouseAnimation from '../animations/mouse.json';
 
-const BirthdayEnvelope = ({ recipientName = 'Friend' }) => {
+const BirthdayEnvelope = ({ recipientName = 'CHIM' }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState(0);
@@ -83,7 +83,7 @@ const BirthdayEnvelope = ({ recipientName = 'Friend' }) => {
             <BirthdayCard>
               <BirthdayMessage>
                 <h1>Happy Birthday 🎉</h1>
-                <h2>Dear {recipientName}!</h2>
+                <h2>Gửi chị CHIMMM!</h2>
                 <p>Chúc mừng sinh nhật chị nhóooo!
 Em và anh Tài chúc c tuổi mới luôn tràn đầy năng lượng tích cực, mỗi ngày thức dậy đều cảm thấy yêu đời, nhẹ nhàng và vui vẻ. Mong chị luôn giữ được nụ cười tươi và luôn hạnh phúc nhoa!
 
